@@ -1,11 +1,12 @@
-import React,{ useState } from "react";
+//import React,{ useState } from "react";
 
 const TodoPage = () => {
-    const [todoText, setTodoText] = useState("");
-    const [todoList, setNewTodoList] = React.useState([]);
+    //const [todoText, setTodoText] = useState("");
+    //const [todoList, setNewTodoList] = React.useState([]);
     return(
         <div className="max-height todo">
             <h1>Todoリスト</h1>
+            {/*
             <table>
                 <thead>
                     <tr>
@@ -23,6 +24,7 @@ const TodoPage = () => {
                     ))}
                 </tbody>
             </table>
+            */}
             <p>製作中</p>
         </div>
     )
