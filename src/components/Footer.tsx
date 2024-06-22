@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer>
             <small>
-                last update: Jun 21, 2024
+                last update: Jun 22, 2024
             </small>
         </footer>
     )
