@@ -1,17 +1,10 @@
-const TodoPage = () => {
-    return (
-        <p className="max-height">製作中</p>
-    )
-}
-
-/*
 import React,{ useState } from "react";
 
 const TodoPage = () => {
     const [todoText, setTodoText] = useState("");
     const [todoList, setNewTodoList] = React.useState([]);
 
-    const onChangeTodoText = (e : ChangeEvent<HTMLInputElement>) => {
+    const onChangeTodoText = (e : any) => {
         setTodoText(e.target.value);
     }
     return(
@@ -29,9 +22,9 @@ const TodoPage = () => {
                 <tbody id="todo-body">  
                     {todoList.map((todo, index) => (
                     <tr>
-                        <td>{index}</td>
-                        <td>{todo.comment}</td>
-                        <td><button>{todo.status}</button></td>
+                        <td></td>
+                        <td></td>
+                        <td><button></button></td>
                         <td><button>削除</button></td>
                     </tr>
                     ))}
@@ -42,12 +35,12 @@ const TodoPage = () => {
             <h2>新規タスクの追加</h2>
             <div className="add-todo">
                 <input value={todoText} onChange={onChangeTodoText} />
-                <button onClick={onClickAdd}>追加</button>
+                <button>追加</button>
             </div>
         </>
     )
 }
-*/
+
 export default TodoPage;
 
 /*
