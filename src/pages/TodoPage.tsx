@@ -1,8 +1,8 @@
-import React,{ useState } from "react";
+import /*React,*/{ useState } from "react";
 
 const TodoPage = () => {
     const [todoText, setTodoText] = useState("");
-    const [todoList, setNewTodoList] = React.useState([]);
+    //const [todoList, setNewTodoList] = React.useState([]);
 
     const onChangeTodoText = (e : any) => {
         setTodoText(e.target.value);
@@ -20,14 +20,19 @@ const TodoPage = () => {
                     </tr>
                 </thead>
                 <tbody id="todo-body">  
-                    {todoList.map((todo, index) => (
+                    
+                    {
+                    /*
+                    todoList.map((todo, index) => (
                     <tr>
                         <td></td>
                         <td></td>
                         <td><button></button></td>
                         <td><button>削除</button></td>
                     </tr>
-                    ))}
+                    ))
+                    */
+                    }
                 </tbody>
                 </table>
             </div>
