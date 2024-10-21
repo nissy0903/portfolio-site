@@ -25,9 +25,9 @@ const HomePage = () => {
                         </Link>
                     </div>
                     <div className="home-item">
-                        <Link to="/none">
+                        <Link to="https://rails-part2.onrender.com/">
                             <img src="/no_icon.png"/>
-                            <p>none</p>
+                            <p>Rails Toy App</p>
                         </Link>
                     </div>
                     <div className="home-item">
